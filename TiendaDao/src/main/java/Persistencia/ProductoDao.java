@@ -57,7 +57,7 @@ public class ProductoDao extends Dao {
 
                 producto.setCodigo(resultSet.getInt(1));
                 producto.setNombre(resultSet.getString(2));
-                producto.setPrecio(resultSet.getInt(3));
+                producto.setPrecio(resultSet.getDouble(3));
 
                 fabricante.setCodigo(resultSet.getInt(1));
                 fabricante.setNombre(resultSet.getString(2));
@@ -92,7 +92,7 @@ public class ProductoDao extends Dao {
 
                 producto.setCodigo(resultSet.getInt(1));
                 producto.setNombre(resultSet.getString(2));
-                producto.setPrecio(resultSet.getInt(3));
+                producto.setPrecio(resultSet.getDouble(3));
 
                 fabricante.setCodigo(resultSet.getInt(1));
                 fabricante.setNombre(resultSet.getString(2));
@@ -128,7 +128,7 @@ public class ProductoDao extends Dao {
                 fabricante = new Fabricante();
 
                 producto.setNombre(resultSet.getString(1));
-                producto.setPrecio(resultSet.getInt(2));
+                producto.setPrecio(resultSet.getDouble(2));
 
                 producto.setFabricante(fabricante);
 
@@ -162,7 +162,7 @@ public class ProductoDao extends Dao {
                 fabricante = new Fabricante();
 
                 producto.setNombre(resultSet.getString(1));
-                producto.setPrecio(resultSet.getInt(2));
+                producto.setPrecio(resultSet.getDouble(2));
 
                 producto.setFabricante(fabricante);
 
