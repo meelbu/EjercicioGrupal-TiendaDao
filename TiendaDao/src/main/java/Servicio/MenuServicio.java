@@ -8,6 +8,7 @@ public class MenuServicio {
     FabricanteServicio fabricanteServicio = new FabricanteServicio();
 
 
+
     Scanner entrada = new Scanner(System.in);
     public void Menu() throws Exception{
      try {
@@ -38,6 +39,29 @@ public class MenuServicio {
                     Menu();
                     break;
                 case "B":
+                    productoServicio.NombrePrecio();
+                    Menu();
+                    break;
+                case "C":
+                    productoServicio.PrecioEntre200y800();
+                    Menu();
+                    break;
+                case "D":
+                    productoServicio.ImpresorasRegistradas();
+                    Menu();
+                    break;
+                case "E":
+                    productoServicio.ProductoMasBarato();
+                    Menu();
+                    break;
+                case "F":
+                    productoServicio.ProductoMasCaro();
+                    Menu();
+                    break;
+                case "G":
+                    productoServicio.CodigoFabricante();
+                    Menu();
+                    break;
 
             }
         }catch (Exception e){

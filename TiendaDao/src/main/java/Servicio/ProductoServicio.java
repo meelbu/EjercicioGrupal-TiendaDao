@@ -14,6 +14,26 @@ public class ProductoServicio {
         productoDao = new ProductoDao();
     }
 
+    public void NombrePrecio() {
+
+    }
+    public void PrecioEntre200y800() {
+
+    }
+    public void ImpresorasRegistradas() {
+
+    }
+    public void ProductoMasBarato() {
+
+    }
+    public void ProductoMasCaro() {
+
+    }
+    public void CodigoFabricante() {
+
+    }
+
+
 
     public void printProductos() throws Exception {
         try {
