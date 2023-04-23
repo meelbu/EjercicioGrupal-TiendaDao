@@ -20,7 +20,7 @@ public class FabricanteServicio {
             if (fabricantes.isEmpty()){
                 throw  new Exception("No existen registros");
             }else {
-                System.out.println("LIST FABRICANTES");
+                System.out.println("LIST DE FABRICANTES");
                 System.out.printf("%-10s%-15s%\n","CODIGO","NOMBRE");
                 for (Fabricante fabricante : fabricantes) {
                     System.out.printf("%-10s%-15s%\n",

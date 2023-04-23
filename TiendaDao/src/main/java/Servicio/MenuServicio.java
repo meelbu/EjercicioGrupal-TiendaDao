@@ -35,7 +35,7 @@ public class MenuServicio {
         try {
             switch (respuesta.toLowerCase()){
                 case "A":
-                    productoServicio.printProductos();
+                    productoServicio.printProductosNombres();
                     Menu();
                     break;
                 case "B":
@@ -59,7 +59,7 @@ public class MenuServicio {
                     Menu();
                     break;
                 case "G":
-                    productoServicio.CodigoFabricante();
+                    fabricanteServicio.printFabricantes();
                     Menu();
                     break;
 
